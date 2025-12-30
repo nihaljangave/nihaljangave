@@ -28,8 +28,8 @@ const AboutPage = () => {
             </p>
             <p className={styles.paragraph}>
               I&apos;ve been leading the development efforts for bringing
-              collaborative video reviewing and editing to the platform. I also
-              maintain our in-house component library, icon library and website.
+              clinical data reviewing and recon to the platform. I also
+              maintain our in-house product stack, infra and services.
             </p>
           </section>
 

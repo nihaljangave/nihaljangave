@@ -8,6 +8,9 @@ const nextConfig: NextConfig = {
       { hostname: 'imgur.com', protocol: 'https' },
       { hostname: 'media2.dev.to', protocol: 'https' },
     ],
+    dangerouslyAllowSVG: true,
+    contentDispositionType: 'attachment',
+    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
 };
 

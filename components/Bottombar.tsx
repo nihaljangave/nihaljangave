@@ -19,27 +19,27 @@ const Bottombar = () => {
           rel="noreferrer noopener"
           className={styles.section}
         >
-          <VscSourceControl className={styles.icon} />
+          <VscSourceControl className={styles.icon} size={16} />
           <p>main</p>
         </a>
         <div className={styles.section}>
-          <VscError className={styles.icon} />
+          <VscError className={styles.icon} size={16} />
           <p className={styles.errorText}>0</p>&nbsp;&nbsp;
-          <VscWarning className={styles.icon} />
+          <VscWarning className={styles.icon} size={16} />
           <p>0</p>
         </div>
       </div>
       <div className={styles.container}>
         <div className={styles.section}>
-          <SiNextdotjs className={styles.icon} />
+          <SiNextdotjs className={styles.icon} size={16} />
           <p>Powered by Next.js</p>
         </div>
         <div className={styles.section}>
-          <VscCheck className={styles.icon} />
+          <VscCheck className={styles.icon} size={16} />
           <p>Prettier</p>
         </div>
         <div className={styles.section}>
-          <VscBell />
+          <VscBell className={styles.icon} size={16} />
         </div>
       </div>
     </footer>

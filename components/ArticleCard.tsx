@@ -26,7 +26,7 @@ const ArticleCard = ({ article }: ArticleCardProps) => {
           className={styles.image}
         />
         <div className={styles.viewsBadge}>
-          <VscEye /> {article.page_views_count}
+          <VscEye className={styles.icon} size={18} /> {article.page_views_count}
         </div>
       </div>
       <div className={styles.content}>

@@ -103,7 +103,7 @@ export default function HomePage() {
 
           <div className={styles.actionLinks}>
             <Link href="/projects" className={styles.primaryLink}>
-              View Projects <VscArrowRight />
+              View Projects <VscArrowRight className={styles.icon} size={16} />
             </Link>
           </div>
         </div>

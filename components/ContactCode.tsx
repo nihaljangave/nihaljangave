@@ -36,6 +36,11 @@ const contactItems = [
     link: 'peerlist.io/nihaljangave',
     href: 'https://peerlist.io/nihaljangave',
   },
+  {
+    social: 'courses',
+    link: 'optimus',
+    href: 'https://sienna-jackal-397556.hostingersite.com/',
+  },
 ];
 
 const ContactCode = () => {
